@@ -1,0 +1,749 @@
+
+#container {
+    background-color: #333;
+}
+
+
+
+.h_in {
+    width: 1300px;
+    height: 170px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.h_top {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.top_line {
+    position: absolute;
+    width: 1300px;
+    height: 1px;
+    top: 22px;
+    background-color: #c1c1c1;
+    border: none;
+}
+.h_top ul {
+    display: flex;
+
+}
+.h_top ul li {
+    margin-left: 20px;
+}
+.h_top ul li a{
+    font-size: 12px;
+    color: #9b9b9b
+}
+
+.h_middle {
+    position: absolute;
+    display: flex;
+    top: 55px;
+    align-items: baseline;
+}
+.h_middle .logo {
+    margin-right: 300px;
+    background-image: url(../images/logo.png);
+    width: 150px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.h_middle .logo a {
+    display: block;
+    text-indent: -9999px;
+    width: 150px;
+    height: 40px;
+    line-height: 1.6em;
+}
+.h_middle .search {
+    display: flex;
+    margin-right: 400px;
+}
+
+.input input {
+    border: none;
+    color: inherit;
+    border-bottom: 1px solid #666;
+    height: 35px;
+    width: 250px;
+    text-align: center;
+}
+
+.search_icon {
+    background-image: url(../images/search1.png);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    text-indent: -9999px;
+    margin-top: 10px;
+}
+.search_icon a {
+    display: block;
+}
+
+.h_middle .sns_icon {
+    display: flex;
+}
+
+.h_middle .sns_icon li {
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    margin-left: 10px;
+    text-indent: -9999px;
+}
+
+.h_middle .sns_icon li a {
+    display: block;
+}
+.kakao {
+    background-image: url(../images/snsicon01.png);
+}
+.face {
+    background-image: url(../images/snsicon02.png);
+}
+.insta {
+    background-image: url(../images/snsicon03.png);
+}
+.twiter {
+    background-image: url(../images/snsicon04.png);
+}
+
+
+
+.h_gnb {
+    position: absolute;
+    top: 125px;
+    left: 0;
+    text-align: center;
+    z-index: 999;
+    border-top: 1px solid #c1c1c1;
+}
+
+.gnb_title {
+    width: 216.666px;
+    padding-top: 4px;
+    padding-bottom: 6px;
+}
+.gnb_title a {
+    font-size: 15px;
+}
+
+.h_gnb > ul {
+    display: flex;
+}
+
+.gnb_sub {
+    height: 250px;
+    display: none;
+    background-color: rgba(51,51,51,0.95);
+}
+
+
+
+.gnb_sub li {
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.gnb_sub li a {
+    color: white;
+    font-size: 14px;
+}
+
+.h_gnb > ul > li {
+    width: 216.666px;
+    line-height: 2em;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.h_gnb > ul > li:hover .gnb_title {
+    border-bottom: 5px solid #8bbe22;
+}
+
+.h_gnb > ul > li:hover .gnb_sub {
+    display: block
+}
+
+.h_gnb > ul > li .gnb_sub li:hover a {
+    color: #8bbe22;
+}
+
+.h_top ul li:hover a {
+    color: #8bbe22;
+}
+
+/* 헤더 */
+
+
+/* 메인1 */
+
+.main1 {
+    margin-bottom: 80px;
+    height: 480px;
+}
+
+.main_S_box {
+    position: relative;
+}
+
+.main_S1 {
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;
+}
+
+.prev {
+    position: absolute;
+    left: 50%;
+    margin-left: -800px;
+    top: 215px;
+    text-indent: -9999px;
+
+}
+
+.prev a {
+    display: block;
+    background-image: url(../images/arrow_left.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 40px;
+    opacity: 0.5;
+}
+
+.next {
+    position: absolute;
+    right: 50%;
+    margin-right: -800px;
+    color: #c1c1c1;
+    top: 215px;
+    text-indent: -9999px;
+
+}
+
+.next a {
+    display: block;
+    background-image: url(../images/arrow_right.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 40px;
+    opacity: 0.5;
+}
+
+
+
+/* 메인1 마지막 */
+
+
+/* 메인2 */
+
+.main2 {
+    margin-bottom: 80px;
+}
+
+.m2_in {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.m2_in ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.game_list {
+    width: 250px;
+    height: 260px;
+    text-align: center;
+    position: relative;
+    background-color: #1d1d1d;
+    color: #fff;
+}
+
+.game_list img {
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+.game_title {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.game_private {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.game_buy a {
+    font-size: 18px;
+    background-color: #4d4d4d;
+    line-height: 1.6em;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 250px;
+    display: block;
+}
+
+.info_title {
+    color: #8bbe22;
+}
+
+
+.game_info {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+
+}
+.game_info li {
+    text-align: center;
+    background-color: rgba(51,51,51,0.8);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 250px;
+    display: none;
+
+}
+
+.info_title {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.info_sub {
+    font-size: 20px;
+    line-height: 1.6em;
+}
+
+.game_buy a:hover {
+    background-color: #8bbe22;
+}
+
+.game_list p:hover + ul li {
+    display: block;
+    transition: all 0.3s;
+}
+
+
+
+/* 메인2 마지막 */
+
+/* 메인3 */
+
+.main3 {
+    margin-bottom: 80px;
+}
+
+.m3_in {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.main3 a img {
+    width: 1300px;
+}
+
+/* 메인3 마지막  */
+
+/* 메인4 */
+
+.m4_in {
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.m4_box {
+    width: 600px;
+    height: 530px;
+    background-color: #1d1d1d;
+}
+
+.box_title {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: 29px;
+    position: relative;
+}
+
+.box_title .month {
+    font-size: 36px;
+    color: #8bbe22;
+    font-weight: bold;
+}
+
+.point {
+    font-weight: bold;
+}
+
+
+.m4_box ul {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.recomend_title, .recomend_buy {
+    text-align: center;
+    margin-left: 50px;
+}
+
+.recomend_title {
+    margin-top: 120px;
+    font-size: 24px;
+    color: #fff;
+    line-height: 1.6em;
+}
+
+.re_title_sub {
+    font-size: 20px;
+}
+
+.recomend_buy {
+    margin-top: 70px;
+    font-size: 20px;
+}
+
+.recomend_buy a {
+    color: #fff;
+    background-color: #4d4d4d;
+    border-radius: 20px 20px 20px 20px;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.recomend_buy a:hover {
+    background-color: #8bbe22;
+}
+
+
+
+/* 메인4 마지막 */
+
+/* 메인5 */
+
+
+.m5_in {
+    width: 1300px;
+    margin: 0 auto;
+    padding-bottom: 70px;
+}
+
+.sub_item_title {
+    height: 50px;
+    text-align: center;
+    font-size: 28px;
+    color: #fff;
+    background-color: #8bbe22;
+    line-height: 1.6em;
+}
+
+.sub_item .sub_item_name {
+    display: flex;
+}
+.sub_item .sub_item_name li {
+    width: 185.7px;
+    text-align: center;
+}
+
+.sub_item .sub_item_name li button {
+    width: 185.7px;
+    height: 40px;
+    background-color: #2d2d2d;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+}
+
+.sub_item .sub_item_name li button:hover {
+    background-color: #8bbe22;
+}
+
+.sub_item_list {
+    background-color: #1d1d1d;
+    height: 300px;
+}
+
+.item_list {
+    display: flex;
+    padding-top: 40px;
+    justify-content: center;
+}
+
+.item_list > div {
+    width: 33.33%;
+}
+
+.item_list div p {
+    text-align: center;
+}
+
+.item_info a {
+    font-size: 15px;
+    color: #ababab;
+}
+
+.item_price a {
+    font-size: 13px;
+    color: #fff;
+}
+.sub_item_list > li {
+    display: none;
+}
+
+.sub_item_list li:first-child {
+    display: flex;
+}
+
+.item_list img {
+    width: 170px;
+    height: 170px;
+    object-fit: contain;
+    
+}
+.item_list02 .item_03 img {
+    width: 140px;
+    height: 140px;
+    margin-bottom: 28px;
+}
+
+
+
+
+/* 메인5 마지막 */
+
+
+/* 메인6 */
+
+.r_wing {
+    position: fixed;
+    right: 50%;
+    margin-right: -850px;
+    width: 100px;
+    top: 730px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+}
+
+.r_wing_icon {
+    background-color: #1d1d1d;
+    margin-bottom: 50px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.cart {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #666;
+    padding-top: 10px;
+}
+
+.cart_icon {
+    background-image: url(../images/side_cart.png);
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left: 17px;
+}
+
+.cs_center {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #666;
+}
+.cs_icon {
+    background-image: url(../images/side_service.png);
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left: 20px;
+}
+
+.order {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.order_icon {
+    background-image: url(../images/side_ordercheck.png);
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left: 20px;
+}
+
+
+
+.r_wing_top {
+    background-color: #1d1d1d;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.go_top {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.go_top_icon {
+    background-image: url(../images/top_icon.png);
+    width: 60px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left: 20px;
+}
+
+.go_top {
+    cursor: pointer;
+}
+
+
+
+/* 메인6 마지막 */
+
+/* 푸터 */
+
+#footer {
+    background-color: #1d1d1d;
+}
+
+.f_in {
+    width: 1300px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+
+footer .mark {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+
+footer .mark li {
+    margin-top: 15px;
+}
+
+footer .mark li a {
+    display: inline-block;
+    width: 78px;
+    height: 28px;
+    background-repeat: no-repeat;
+    
+}
+footer .mark_01 a{
+    background-image: url(../images/mark01.png);
+
+}
+footer .mark .mark_02 a {
+    background-image: url(../images/mark02.png);
+}
+footer .mark .mark_03 a {
+    background-image: url(../images/mark03.png);
+}
+footer .mark .mark_04 a {
+    background-image: url(../images/mark04.png);
+}
+footer .mark .mark_05 a {
+    background-image: url(../images/mark05.png);
+}
+footer .mark .mark_06 a {
+    background-image: url(../images/mark06.png);
+}
+footer .mark .mark_07 a {
+    background-image: url(../images/mark07.png);
+}
+footer .mark .mark_08 a {
+    background-image: url(../images/mark08.png);
+}
+footer .mark .mark_09 a {
+    background-image: url(../images/mark09.png);
+}
+footer .mark .mark_10 a {
+    background-image: url(../images/mark10.png);
+}
+footer .mark .mark_11 a {
+    background-image: url(../images/mark11.png);
+}
+footer .mark .mark_12 a {
+    background-image: url(../images/mark12.png);
+}
+footer .mark .mark_13 a {
+    background-image: url(/images/mark13.png);
+}
+footer .mark .mark_14 a {
+    background-image: url(/images/mark14.png);
+}
+footer .mark .mark_15 a {
+    background-image: url(/images/mark15.png);
+}
+footer .mark .mark_16 a {
+    background-image: url(/images/mark16.png);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    color: #9d9d9d;
+    margin-top: 15px;
+}
+
+.footer_logo a {
+    width: 237px;
+    height: 52px;
+    display: inline-block;
+    background-image: url(../images/footer_logo.png);
+    margin-top: 30px;
+    background-repeat: no-repeat;
+}
+
+
+.footer_info {
+    text-align: center;
+    letter-spacing: 0.7px;
+    padding-top: 10px;
+}
+
+.footer_call {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.footer_call .call_n {
+    font-size: 30px;
+    margin-bottom: 4px;
+    font-weight: 700;
+    line-height: 1em;
+
+}
+
+.footer_call .call_h {
+    font-size: 15px;
+    line-height: 1.2em;
+}
+
+/* 푸터 마지막 */

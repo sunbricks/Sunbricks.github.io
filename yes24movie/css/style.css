@@ -1,0 +1,1342 @@
+@charset "utf-8";
+
+
+/* 모바일 */
+
+/* 공통 */
+.section_line {
+    width: 100%;
+    height: 10px;
+    background-color: #ebebeb;
+    border: 0;
+}
+
+
+/* 모바일 헤더 */
+
+#header {
+    height: 40px;
+}
+
+.h_in {
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.h_logo a {
+    background-image: url(../images/yes24_logo.png);
+    width: 100px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-indent: -9999px;
+    display: block;
+}
+
+.h_menu {
+    display: none;
+}
+
+.h_icon {
+    display: flex;
+}
+
+.h_icon p {
+    margin-left: 16px;
+}
+
+.search_icon a {
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/search_icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+
+}
+.my_icon a {
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/my_icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+
+/* 모바일 본문 01 */
+
+.main1 {
+    padding-bottom: 30px;
+}
+
+.main_Slide .ms_img .pc{
+    display: none;
+}
+
+.main_Slide .ms_img .mo {
+    width: 100%;
+    overflow: hidden;
+}
+
+.main_Slide .ms_img .pc {
+    display: none;
+}
+
+.main_Slide .ms_img {
+    overflow: hidden;
+}
+
+.main_Slide {
+    cursor: pointer;
+}
+
+.slick-arrow {display:none !important;}
+
+.main_Slide .slick-dots {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+.main_Slide .slick-dots li {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.main_Slide .slick-dots li button {
+    width: 14px;
+    height: 14px;
+    border: 0;
+    border-radius: 50%;
+    background-color: #838485;
+    text-indent: -9999px;
+}
+
+
+.main_Slide .slick-dots .slick-active button {
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+/* 모바일 본문 02 */
+
+.main2 {
+    padding-bottom: 40px;
+}
+
+
+.tab_menu ul li {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.tab_menu ul {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    margin-right: 20px;
+
+}
+
+.tab_menu a {
+    font-size: 12px;
+    color: #666;
+}  
+
+.poster_PC {
+    display: none;
+}
+
+.tab_poster ul {
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-between;
+
+}
+
+.tab_poster_photo {
+    margin-bottom: 5px;
+}
+
+.tab_poster ul li {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%;
+}
+
+.tab_poster ul li img {
+    width: 100%;
+}
+
+.tab_poster_title {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.tab_poster_rank {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.poster_more {
+    width: 100px;
+    margin: 0 auto;
+
+}
+
+.poster_more a {
+    font-size: 14px;
+    border-radius: 20px;
+    border: 1px solid #959595;
+    text-align: center;
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+/* 모바일 본문 03 */
+
+.main3 {
+    margin-bottom: 40px;
+}
+
+.main3 .banner_mo img{
+    width: 100%;
+}
+
+.banner_pc {
+    display: none;
+}
+
+/* 모바일 본문 04 */
+
+.main4 {
+    margin-bottom: 40px;
+}
+
+.magazine_h {
+    display: flex;
+    margin-right: 20px;
+    margin-left: 20px;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.magazine_title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.magazine_more {
+    font-size: 15px;
+    color: #959595;
+}
+
+
+.magazine_write {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.magazine_write li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ebebeb;
+}
+.magazine_write li a {
+    display: flex;
+    justify-content: space-between;
+}
+
+.magazine_w_m {
+    font-size: 14px;
+    padding-right: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #666;
+}
+
+.magazine_w_date {
+    font-size: 12px;
+    color: #959595;
+}
+
+.magazine_write li:first-child {
+    border-top: 2px solid #ebebeb;
+}
+
+
+/* 모바일 본문 05 */
+.main5 {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.movie {
+    display: flex;
+    margin-right: 20px;
+    margin-left: 20px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.movie_title {
+    font-size: 20px;
+    font-weight: bold;
+}
+.movie_more {
+    font-size: 15px;
+    color: #959595;
+}
+.movie_video iframe {
+    width: 100%;
+    height: 300px;
+}
+
+.movie_video {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* 모바일 본문 06 */
+.main6 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.inde_movie {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+
+}
+.inde_movie_title {
+    font-size: 20px;
+    font-weight: bold;
+}
+.inde_movie_more {
+    font-size: 15px;
+    color: #959595;
+}
+
+.inde_movie_poster ul {
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.inde_movie_poster ul li {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.inde_movie_poster ul li img {
+    width: 100%;
+}
+.inde_movie_poster .po_ta {
+    display: none;
+}
+.inde_movie_poster .po_pc {
+    display: none;
+}
+
+/* 모바일 본문 07 */
+.main7 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.hot_movie {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+}
+
+.hot_movie_title {
+    font-size: 20px;
+    font-weight: bold;
+}
+.hot_movie_more {
+    font-size: 15px;
+    color: #959595;
+}
+
+.hot_movie_poster ul {
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.hot_movie_poster ul li {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 33.33%;
+}
+
+.hot_movie_poster ul li img {
+    width: 100%;
+}
+
+
+.hot_movie_poster ul .po_pc {
+    display: none;
+}
+
+/* 모바일 본문 08 */
+
+.main8 {
+    margin-bottom: 40px;
+}
+
+.notice_h, .QnA_h {
+    display: flex;
+    margin-right: 20px;
+    margin-left: 20px;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.notice_title, .QnA_title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.notice_more, .QnA_more {
+    font-size: 15px;
+    color: #959595;
+}
+
+
+.notice_write, .QnA_write {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.notice_write li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ebebeb;
+}
+.notice_write li a {
+    display: flex;
+    justify-content: space-between;
+}
+
+.notice_w_m {
+    font-size: 14px;
+    padding-right: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #666;
+}
+
+.notice_w_date {
+    font-size: 12px;
+    color: #959595;
+}
+
+.notice_write li:first-child {
+    border-top: 2px solid #ebebeb;
+}
+
+
+.QnA_write li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ebebeb;
+}
+.QnA_write li a {
+    display: flex;
+    justify-content: space-between;
+}
+
+.QnA_w_m {
+    font-size: 14px;
+    padding-right: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #666;
+}
+
+.QnA_write li:first-child {
+    border-top: 2px solid #ebebeb;
+}
+
+
+.QnA {
+    display: none;
+}
+
+
+/* 모바일 푸터 */
+
+
+#footer {
+    background-color: #ebebeb;
+}
+
+#footer .inner .footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footer_title {
+    font-size: 14px;
+    color: #666;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer_info {
+    font-size: 14px;
+    color: #666;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer_info2 {
+    font-size: 12px;
+    color: #666;
+
+}
+
+.footerM {
+    margin-right: 20px;
+}
+
+
+.footer_line {
+    display: none;
+}
+
+.footer_line2 {
+    color: #c1c1c1;
+}
+
+
+.go_top {
+    background-image: url(../images/go_top.png);
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    position: fixed;
+    background-size: contain;
+    background-color: #1d1d1d;
+    background-position: center bottom 2px;
+    border-radius: 50%;
+    display: none;
+}
+
+
+
+/* 모바일 마지막 */
+
+
+
+
+
+/* 테블릿 */
+@media screen and (min-width:750px) {
+
+    /* 테블릿 헤더 */
+
+    #header {
+        height: 60px;
+    }
+
+    .h_in {
+        height: 60px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .main_Slide .mo {
+        max-height: 1000px;
+        object-fit: contain;
+    }
+
+
+
+    /* 테블릿 본문 01 */
+
+
+    /* 테블릿 본문 02 */
+
+    .tab_menu a {
+        font-size: 17px;
+    }
+
+    .tab_poster_title {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .tab_poster_rank {
+        font-size: 15px;
+    }
+
+    .tab_poster_photo {
+        margin-bottom: 10px;
+    }
+
+    .poster_more a {
+        font-size: 15px;
+    }
+
+    .tab_menu ul li {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .tab_menu ul {
+        margin-bottom: 25px;
+    }
+
+
+    /* 테블릿 본문 03 */
+    .main3 {
+        margin-bottom: 60px;
+    }
+
+    .banner_mo {
+        display: none;
+    }
+
+    .banner_pc {
+        display: block;
+    }
+
+    .banner_pc img {
+        width: 100%;
+    }
+
+    .tab_poster ul {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .tab_poster_photo {
+        margin-bottom: 10px;
+    }
+    
+    .tab_poster ul li {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 50%;
+
+    }
+
+    
+
+
+    /* 테블릿 본문 04 */
+
+    .main4 {
+        margin-bottom: 60px;
+    }
+    
+    .magazine_h {
+        padding-bottom: 25px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    
+    .magazine_title {
+        font-size: 22px;
+    }
+    
+    .magazine_more {
+        font-size: 18px;
+    }
+    
+    
+    .magazine_write {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    
+    .magazine_write li {
+
+    }   
+    .magazine_w_m {
+        font-size: 17px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .magazine_w_date {
+        font-size: 14px;
+        line-height: 3em;
+    }
+
+    /* 테블릿 본문 05 */
+    .main5 {
+        margin-bottom: 60px;
+        margin-top: 60px;
+    }
+
+    .movie {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .movie_title {
+        font-size: 22px;
+    }
+
+    .movie_more {
+        font-size: 18px;
+    }
+
+    .movie_video {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .movie_video iframe {
+        height: 400px;
+    }
+
+    /* 테블릿 본문 06 */
+
+    .main6 {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .inde_movie {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .inde_movie_title {
+        font-size: 22px;
+    }
+    .inde_movie_more {
+        font-size: 18px;
+    }
+    .inde_movie_poster {}
+    .inde_movie_poster ul {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .inde_movie_poster ul li {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 33.33%;
+    }
+
+    .inde_movie_poster ul li.po_ta {
+        display: block
+    }
+
+    /* 테블릿 본문 07 */
+
+    .main7 {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    
+    .hot_movie {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    
+    .hot_movie_title {
+        font-size: 22px;
+    }
+    .hot_movie_more {
+        font-size: 18px;
+    }
+    
+    .hot_movie_poster ul {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .hot_movie_poster ul li {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 33.33%;
+    }
+    
+
+    /* 테블릿 본문 08 */
+
+    .main8 {
+        margin-bottom: 60px;
+    }
+
+    .main8 .inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    
+    .notice {
+        width: 50%;
+    }
+
+    .QnA {
+        width: 50%;
+    }
+
+    .notice_h {
+        padding-bottom: 25px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    
+    .notice_title {
+        font-size: 22px;
+    }
+    
+    .notice_more {
+        font-size: 18px;
+    }
+    
+    
+    .notice_write {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    
+    .notice_write li {
+
+    }   
+    .notice_w_m {
+        font-size: 17px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .notice_w_date {
+        font-size: 14px;
+        line-height: 2em;
+        padding-top: 5px;
+    }
+
+    .QnA_h {
+        padding-bottom: 25px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    
+    .QnA_title {
+        font-size: 22px;
+    }
+    
+    .QnA_more {
+        font-size: 18px;
+    }
+    
+    
+    .QnA_write {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    
+    .QnA_w_m {
+        font-size: 17px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .QnA {
+        display: block;
+    }
+
+    /* 테블릿 푸터 */
+
+    .footer_line {
+        display: inline-block  
+    } 
+
+
+    #footer .inner .footer {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    
+    .footer_title {
+        font-size: 16px;
+
+        margin-bottom: 30px;
+    }
+    
+    .footer_info {
+        font-size: 16px;
+
+        margin-bottom: 30px;
+    }
+
+    .footer_info .mo {
+        display: none;
+    }
+    
+    .footer_info2 {
+        font-size: 13px;
+    
+    }
+    
+    .footerM {
+        margin-right: 20px;
+    }
+
+
+    .go_top {
+        width: 50px;
+        height: 50px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+/* 테블릿 마지막 */
+
+
+
+
+
+/* PC */
+@media screen and (min-width:1310px) {
+
+    /* 본문 공통 */
+    .inner {
+        width: 1300px;
+        margin: 0 auto;
+    }
+
+    .section_line {
+        display: none;
+    }
+
+    /* PC 헤더 */
+
+    #header {
+        height: 100px;
+        background-color: #1d1d1d;
+        position: relative;
+    }
+
+    
+    .h_in {
+        width: 1310px;
+        height: 100px;
+        position: absolute;
+        left: 50%;
+        margin-left: -650px;
+    }
+
+    .h_logo a {
+        width: 140px;
+        height: 25px;
+        background-image: url(../images/yes24_logo_pc.png);
+    }
+
+    .search_icon a {
+        width: 25px;
+        height: 25px;
+        background-image: url(../images/search_icon_pc.png);
+    }
+
+    .my_icon a {
+        width: 25px;
+        height: 25px;
+        background-image: url(../images/my_icon_pc.png);
+    }
+
+    .h_menu {
+        display: block;
+        width: 700px;
+        text-align: center;
+    }
+
+    .main_menu > li {
+        width: 200px;
+    } 
+
+    .h_menu_sub li {
+        width: 175px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
+    .h_menu_sub li a {
+        font-size: 16px;
+    }
+
+    .h_menu_sub {
+        position: absolute;
+        z-index: 999;
+        color: white;
+        display: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        height: 250px;
+    }
+
+    .h_menu > ul {
+        display: flex;
+    }  
+
+    .h_menu_T {
+        padding-bottom: 36px;
+        padding-top: 36px;
+    }
+    .h_menu_T a {
+        color: #fff;
+        font-size: 22px;
+    }
+
+    .main_menu:hover .h_menu_sub {
+        display: block;
+
+    }
+
+    .h_menu_sub li:hover a{
+        color: #ff4b4b;
+    }
+
+    .h_icon p {
+        margin-left: 25px;
+    }
+
+    .gnbBg{
+        position: absolute;
+        top: 100px;
+        left: 0;
+        display: none;
+        width: 100%;
+        height: 250px;
+        background-color: rgba(29,29,29);
+        opacity: 0.9;
+        z-index: 100;
+    }
+
+
+
+
+    /* PC 본문 01 */
+    .main1_box {
+        width: 1920px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .main1 {
+        position: relative;
+        background-color: #1d1d1d;
+        height: 775px;
+    }
+
+    .main_Slide .ms_img .mo {
+        display: none;
+    }
+
+    .main_Slide .ms_img .pc {
+        display: block;
+
+    }
+
+    .slick-arrow {display:block !important;}
+
+    .main_Slide .slick-dots {
+        bottom: 50px;
+        left: 0;
+    }
+    .main_Slide .slick-dots li {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .main_Slide .slick-dots li button {
+        width: 17px;
+        height: 17px;
+        background-color: #838485;
+        cursor: pointer;
+    }
+
+    .main_Slide .slick-next {
+        position: absolute;
+        top: 0;
+        right: 50%;
+        z-index: 999;
+        margin-right: -850px;
+        background-image: url(../images/right_slide_icon.png);
+    }
+    .main_Slide .slick-prev {
+        position: absolute;
+        top: 0;
+        z-index: 999;
+        left: 50%;
+        margin-left: -850px;
+        background-image: url(../images/left_slide_icon.png);
+    }
+    .main_Slide .slick-arrow {
+        border: 0;
+        top: 45%;
+        width: 30px;
+        height: 60px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        text-indent: -99999px;
+        cursor: pointer;
+        background-color: inherit;
+    }
+
+    
+    
+    
+
+
+    /* PC 본문 02 */
+    .main2 {
+        padding-bottom: 110px;
+        background-color: #1d1d1d;
+    }
+
+    .poster_PC {
+        display: block;
+    }
+
+    .poster_M {
+        display: none;
+    }
+
+
+    .tab_menu a {
+        color: #fff;
+    }
+
+    .tab_menu ul {
+        margin-bottom: 45px;
+        padding-top: 100px;
+        margin-right: 30px;
+    }
+
+    .tab_menu ul li {
+
+    }
+
+    .tab_menu ul a {
+        font-size: 23px;
+    }
+
+    .tab_poster_photo {
+        margin-bottom: 10px;
+    }
+
+    .tab_poster {
+        margin-bottom: 60px;
+    }
+
+    .tab_poster_title {
+        font-size: 18px;
+        line-height: 1.4em;
+        color: #fff;
+    }
+    .poster_more {
+        width: 200px;
+    }
+    .poster_more a {
+        font-size: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: #666;
+        color: #fff;
+    }
+
+
+    .tab_menu ul li:hover a {
+        color: #ff4b4b;
+        font-weight: bold;
+    }
+
+    .poster_more:hover a {
+        background-color: #ff4b4b;
+    }
+
+    /* PC 본문 03 */
+
+    .main3 {
+        margin-bottom: 110px;
+    }
+
+
+    /* PC 본문 04 */
+    .main4 {
+        display: none;
+    }
+
+    /* PC 본문 05 */
+
+    .main5 {
+        margin-bottom: 110px;
+    }
+
+    .movie {
+        margin-bottom: 20px;
+    }
+
+    .movie_title {
+        font-size: 28px;
+    }
+
+    .movie_more {
+        font-size: 20px;
+
+    }
+
+    .movie_video {
+
+    }
+
+    .movie_video iframe {
+        height: 700px;
+    }
+
+    /* PC 본문 06 */
+    .main6 {
+        margin-bottom: 110px;
+    }
+    .inde_movie {
+        margin-bottom: 20px;
+    }
+    .inde_movie_title {
+        font-size: 28px;
+    }
+    .inde_movie_more {
+        font-size: 20px;
+    }
+    .inde_movie_poster ul .po_pc {
+        display: block;
+    }
+    .inde_movie_poster ul li {
+        width: 25%;
+    }
+
+
+    /* PC 본문 07  */
+    .main7 {
+        margin-bottom: 110px;
+    }
+    
+    .hot_movie_title {
+        font-size: 28px;
+    }
+    .hot_movie_more {
+        font-size: 20px;
+    }
+
+    
+    .hot_movie_poster ul li {
+        width: 25%;
+    }
+    
+    .hot_movie_poster ul .po_pc {
+        display: block;
+    }
+
+    /* PC 본문 08 */
+
+    .main8 {
+        margin-bottom: 110px;
+    }
+
+
+    .notice_title, .QnA_title {
+        font-size: 28px;
+    }
+
+    .notice_more, .QnA_more {
+        font-size: 20px;
+    }
+
+    .QnA, .notice {
+        width: 50%;
+    }
+
+
+    .QnA_write li:first-child, .notice_write li:first-child {
+        border-top: 2px solid #000;
+    }
+
+    .QnA_write li:last-child, .notice_write li:last-child {
+        border-bottom: 2px solid #000;
+    }
+
+    /* PC 푸터 */
+    
+    #footer {
+        text-align: center;
+    }
+    
+    .footer_title {
+        font-size: 15px;
+        margin-bottom: 40px;
+    }
+    
+    .footer_info {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+    
+    .footer_info2 {
+        font-size: 13px;
+        line-height: 1.6em;
+    
+    }
+    
+    .footerM {
+        margin-right: 40px;
+    }
+
+    .footer_line2 {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .go_top {
+        right: 200px;
+        bottom: 70px;
+        cursor: pointer;
+    }
+    
+
+}
+/* PC 마지막 */

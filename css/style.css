@@ -1,0 +1,608 @@
+@charset "utf-8";
+
+/* 브라우저 리셋 */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{ 
+    font-family: 'S-CoreDream', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    color: #121212;
+}
+ul, ol{
+    list-style: none;
+}
+img{
+    vertical-align: top;
+    border: 0;
+    width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+#wrap{
+    min-width: 1580px;
+}
+/* 내비게이션 수정하기, 모든 페이지에서 동일한 위치값 가짐. */
+#header{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    min-width: 1580px;
+    background-color: #fff;
+    z-index: 500;
+    border-top: 1px solid #c7d1f1;
+}
+#header ul{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header li{
+    margin: 0 40px;
+}
+#header li a{
+    font-size: 16px;
+    color: #888;
+}
+#header li a:hover{
+    color: #ff5232;
+}
+#header li.on a{
+    color: #ff5232;
+}
+
+/* index.html 문서 */
+.fp-tableCell{
+    /* 
+        fullpage.js에 의해 자동 생성되는 태그.
+        div.section > div.fp-tableCell > div.inner로 만들어짐.
+     */
+    padding-bottom: 60px;
+    box-sizing: border-box;
+    /* 
+        하단에 노출되는 내비게이션 높이만큼 여백 작성.
+        만약 내비게이션의 위치값이 위쪽으로 이동하면 패딩 방향도 수정하기.
+    */
+}
+
+.main1_box {
+    height: 900px;
+    position: relative;
+    background-color: #ffffe0;
+}
+
+#intro {
+    transition: all 0.3s;
+}
+
+.sponge_img {
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    margin-left: -500px;
+    animation: fadein 1s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.html_icon {
+    position: absolute;
+    left: 50%;
+    top: 140px;
+    margin-left: -248px;
+    animation: fadein 3s;
+}
+
+
+.css_icon {
+    position: absolute;
+    left: 50%;
+    top: 380px;
+    margin-left: -490px;
+    animation: fadein 4s;
+}
+
+.react_icon {
+    position: absolute;
+    left: 50%;
+    top: 375px;
+    margin-left: 366px;
+    animation: fadein 4s;
+}
+
+.script_icon {
+    position: absolute;
+    left: 50%;
+    top: 700px;
+    margin-left: -255px;
+    animation: fadein 5s;
+
+}
+.jquery_icon {
+    position: absolute;
+    left: 50%;
+    top: 648px;
+    margin-left: 159px;
+    animation: fadein 5s;
+}
+.node_icon {
+    position: absolute;
+    left: 50%;
+    top: 110px;
+    margin-left: 130px;
+    animation: fadein 5s;
+}
+
+.section_title {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 150px;
+    font-size: 52px;
+}
+.skill {
+    padding-right: 200px;
+    padding-left: 200px;
+    background-color: #ffe9a6;
+}
+
+
+
+.skill_title {
+    color: #1d1d1d;
+}
+
+.sk_list ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sk_list ul li {
+    text-align: center;
+    width: 410px;
+    height: 190px;
+    background-color: rgba(255,255,255,0.8);
+    padding-top: 30px;
+    border-radius: 40px 0 40px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nd_list {
+    margin-top: 100px;
+}
+
+.sk_name {
+    font-size: 28px;
+    margin-bottom: 25px;
+    color: #ffa200;
+}
+
+.sk_info {
+    font-size: 15px;
+    line-height: 1.4em;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* 섹션3 끝 */
+
+/* 섹션4 */
+
+.box4{
+    width: 1300px;
+    margin: 0 auto;
+}
+
+
+.pf_box {
+    position: relative;
+    width: 400px;
+    height: 500px;
+}
+
+.portfolio {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.pf_list ul {
+    display: flex;
+    justify-content: space-between;
+} 
+
+.pf_list ul li {
+    width: 400px;
+    background-color: #fff;
+    height: 500px;
+    border : 1px solid #9d9d9d;
+}
+
+.pf_list ul li a.image_click {
+    display: block;
+    width: 400px;
+    height: 375px;
+    overflow: hidden;
+}
+
+.pf_photo {
+    width: 400px;
+    height: 375px;
+    margin: 0 auto;
+}
+
+.pf_title, .pf_sub, .pf_btn {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.pf_title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: px;
+    margin-top: 35px;
+}
+
+.pf_sub {
+    font-size: 14px;
+}
+
+.pf_btn {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.pf_btn a {
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    color: #9d9d9d;
+}
+
+
+.arrow {
+    background-image: url(../image/arrow_right.png);
+    background-repeat: no-repeat;
+    width: 6px;
+    height: 10px;
+    display: block;
+    margin-left: 10px;
+}
+
+/* 섹션4 */
+
+
+
+
+/* subpage */
+
+#sub_container {
+    position: relative;
+    max-width: 1920px;
+    min-width: 1900px;
+    margin: 0 auto;
+}
+
+
+.assa {
+    background-image: url(../image/assa_mokup.jpg);
+    background-size: 140% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.yes {
+    background-image: url(../image/yes24_mukup.jpg);
+    background-size: 140% auto;
+    background-repeat: no-repeat;
+    background-position: center left -125px;
+}
+
+.nurdy {
+    background-image: url(../image/nerdy_mokup.jpg);
+    background-size: 145% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pf_photo:hover {
+    transform: scale(1.1);
+}
+
+#fp-nav{
+    position: fixed;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    margin-top: 0 !important;
+}
+#fp-nav li{
+    padding: 8px 0;
+    position: relative;
+}
+#fp-nav li a{
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #000;
+    opacity: 0.3;
+    color: #333;
+}
+#fp-nav li .active{
+    opacity: 1;
+}
+#fp-nav li a:before{
+    display: block;
+    position: absolute;
+    top: 3px;
+    right: 20px;
+    width: 100px;
+    text-align: right;
+    opacity: 0;
+}
+#fp-nav li .active:before, #fp-nav li:hover a:before{
+    opacity: 1;
+}
+
+.assacom_web1 {
+    background-image: url(../image/assa_info1.jpg);
+    width: 100%;
+    height: 2000px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.assacom_web2 {
+    background-image: url(../image/assa_info2.jpg);
+    width: 100%;
+    height: 2000px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.assacom_web3 {
+    background-image: url(../image/assa_info3.jpg);
+    width: 100%;
+    height: 222px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nurdy_web1 {
+    background-image: url(../image/nerdy_info1.jpg);
+    width: 100%;
+    height: 2000px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nurdy_web2 {
+    background-image: url(../image/nerdy_info2.jpg);
+    width: 100%;
+    height: 2000px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nurdy_web3 {
+    background-image: url(../image/nerdy_info3.jpg);
+    width: 100%;
+    height: 1283px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.yes24_web1 {
+    background-image: url(../image/yes24movie_info1.jpg);
+    width: 100%;
+    height: 2000px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.yes24_web2 {
+    background-image: url(../image/yes24movie_info2.jpg);
+    width: 100%;
+    height: 2000px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.yes24_web3 {
+    background-image: url(../image/yes24movie_info3.jpg);
+    width: 100%;
+    height: 2000px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.yes24_web4 {
+    background-image: url(../image/yes24movie_info4.jpg);
+    width: 100%;
+    height: 864px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pj01, .pj02, .pj03 {
+    overflow-x: hidden;
+}
+
+.btn_view1 {
+    position: absolute;
+    top: 450px;
+    left: 50%;
+    margin-left: -620px;
+    margin-top: 2280px;
+}
+
+.btn_view1-2 {
+    position: absolute;
+    top: 500px;
+    left: 50%;
+    margin-left: -65px;
+    margin-top: -250px;
+}
+
+
+
+.btn_view1 a{
+    display: block;
+    width: 150px;
+    height: 50px;
+    border: 1.5px solid #02002c;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 50px;
+    color: #02002c;
+    font-size: 18px;
+}
+
+.btn_view1-2 a{
+    display: block;
+    width: 150px;
+    height: 50px;
+    border: 1.5px solid #fff;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 18px;
+}
+
+
+.btn_view1 a:hover{
+    background-color: #02002c;
+    color : #fff;
+}
+
+.btn_view1-2 a:hover{
+    background-color: #fff;
+    color : #02002c;
+}
+
+.btn_view1-3 a:hover{
+    background-color: #fff;
+    color : #02002c;
+}
+
+.btn_view2 {
+    position: absolute;
+    top: 450px;
+    left: 50%;
+    margin-left: -620px;
+    margin-top: 2880px;
+}
+
+.btn_view2-2 {
+    position: absolute;
+    top: 500px;
+    left: 50%;
+    margin-left: -65px;
+    margin-top: -250px;
+}
+
+
+.btn_view2 a{
+    display: block;
+    width: 150px;
+    height: 50px;
+    border: 1.5px solid #02002c;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 50px;
+    color: #02002c;
+    font-size: 18px;
+}
+
+.btn_view2-2 a{
+    display: block;
+    width: 150px;
+    height: 50px;
+    border: 1.5px solid #fff;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.btn_view2 a:hover{
+    background-color: #02002c;
+    color : #fff;
+}
+
+.btn_view2-2 a:hover{
+    background-color: #b3a0da;
+    color : #fff;
+}
+
+.btn_view3 {
+    position: absolute;
+    top: 480px;
+    left: 50%;
+    margin-left: -620px;
+    margin-top: 5280px;
+}
+
+.btn_view3-2 {
+    position: absolute;
+    top: 500px;
+    left: 50%;
+    margin-left: -65px;
+    margin-top: -250px;
+}
+.btn_view3 a{
+    display: block;
+    width: 150px;
+    height: 50px;
+    border: 1.5px solid #02002c;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 50px;
+    color: #02002c;
+    font-size: 18px;
+}
+
+.btn_view3-2 a{
+    display: block;
+    width: 150px;
+    height: 50px;
+    border: 1.5px solid #fff;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.btn_view3 a:hover{
+    background-color: #02002c;
+    color : #fff;
+}
+
+.btn_view3-2 a:hover{
+    background-color: #02002c;
+    color : #fff;
+}
