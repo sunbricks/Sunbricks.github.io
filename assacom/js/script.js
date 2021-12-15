@@ -22,8 +22,8 @@ $('.go_top').click(function(){
 // 스크롤이 움직일 때 ==========
 $(window).scroll(function(){
     var s = $(window).scrollTop();
-    if(s>=730){
-        $('.r_wing').css('position','fixed').css('top',0);
+    if(s>=380){
+        $('.r_wing').css('position','fixed').css('top',380);
     } else {
         $('.r_wing').css('position','absolute').css('top',730);
     }

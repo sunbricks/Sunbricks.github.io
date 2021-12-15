@@ -568,6 +568,10 @@
     margin-left: 17px;
 }
 
+.cart_text {
+    color: #666;
+}
+
 .cs_center {
     padding-bottom: 10px;
     margin-bottom: 10px;
@@ -580,6 +584,10 @@
     background-repeat: no-repeat;
     background-position: center center;
     margin-left: 20px;
+}
+
+.cs_text {
+    color: #666;
 }
 
 .order {
@@ -596,6 +604,10 @@
     margin-left: 20px;
 }
 
+.order_text {
+    color: #666;
+}
+
 
 
 .r_wing_top {
@@ -606,6 +618,7 @@
 .go_top {
     padding-bottom: 10px;
     padding-top: 10px;
+    cursor: pointer;
 }
 
 .go_top_icon {
@@ -617,8 +630,8 @@
     margin-left: 20px;
 }
 
-.go_top {
-    cursor: pointer;
+.go_top_text {
+    color: #666;
 }
 
 
@@ -657,7 +670,6 @@ footer .mark li a {
 }
 footer .mark_01 a{
     background-image: url(../images/mark01.png);
-
 }
 footer .mark .mark_02 a {
     background-image: url(../images/mark02.png);
@@ -693,16 +705,16 @@ footer .mark .mark_12 a {
     background-image: url(../images/mark12.png);
 }
 footer .mark .mark_13 a {
-    background-image: url(/images/mark13.png);
+    background-image: url(../images/mark13.png);
 }
 footer .mark .mark_14 a {
-    background-image: url(/images/mark14.png);
+    background-image: url(../images/mark14.png);
 }
 footer .mark .mark_15 a {
-    background-image: url(/images/mark15.png);
+    background-image: url(../images/mark15.png);
 }
 footer .mark .mark_16 a {
-    background-image: url(/images/mark16.png);
+    background-image: url(../images/mark16.png);
 }
 
 .footer {

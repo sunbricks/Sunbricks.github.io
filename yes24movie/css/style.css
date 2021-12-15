@@ -1022,9 +1022,12 @@
         font-size: 22px;
     }
 
+    .h_menu_T:hover a {
+        color: #ff4b4b;
+    }
+
     .main_menu:hover .h_menu_sub {
         display: block;
-
     }
 
     .h_menu_sub li:hover a{
@@ -1249,6 +1252,10 @@
         width: 25%;
     }
 
+    .inde_movie_poster ul li:hover img {
+        transform: scale(1.1);
+    }
+
 
     /* PC 본문 07  */
     .main7 {
@@ -1269,6 +1276,10 @@
     
     .hot_movie_poster ul .po_pc {
         display: block;
+    }
+
+    .hot_movie_poster ul li:hover img {
+        transform: scale(1.1);
     }
 
     /* PC 본문 08 */
